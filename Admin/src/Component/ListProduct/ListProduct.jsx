@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import cross_icon from "../../assets/cross_icon.png";
 
 const ListProduct = () => {
-  const Url = "http://localhost:4000";
+  const Url = "https://shoppingapp-backend-j4hr.onrender.com";
   const [allProduct, setAllProduct] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
