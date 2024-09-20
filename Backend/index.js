@@ -17,7 +17,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const Url = "http://localhost:4000";
+const Url = "https://shoppingapp-backend-j4hr.onrender.com";
 
 // MongoDB connection
 const mongoURI = process.env.MONGODB_URI; // Use the environment variable
