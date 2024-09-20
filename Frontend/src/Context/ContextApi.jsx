@@ -1,6 +1,6 @@
 import React, { createContext, useEffect, useState } from "react";
 
-const Url = "http://localhost:4000";
+const Url = "https://shoppingapp-backend-j4hr.onrender.com";
 
 export const ShopContext = createContext(null);
 
