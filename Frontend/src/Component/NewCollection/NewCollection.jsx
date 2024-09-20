@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Item from "../Item/Item";
 
 const NewCollection = () => {
-  const Url = "http://localhost:4000";
+  const Url = "https://shoppingapp-backend-j4hr.onrender.com";
   const [newCollection, setNewCollection] = useState([]);
 
   useEffect(() => {
