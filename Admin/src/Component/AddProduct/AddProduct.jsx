@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Upload from "../../assets/upload_area.svg";
 
 const AddProduct = () => {
-  const Url = "http://localhost:4000";
+  const Url = "https://shoppingapp-backend-j4hr.onrender.com";
   const [image, setImage] = useState(null);
   const [product, setProduct] = useState({
     name: "",
